@@ -3,6 +3,11 @@ body{
     font-size: 18px;
 }
 
-header, footer{
+header,footer{
     background-color:blanchedalmond;
 }
+
+.site-title {
+    color:blueviolet;
+}
+
