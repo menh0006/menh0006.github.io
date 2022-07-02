@@ -22,7 +22,7 @@ header{
 
 h1 { /* sets position to absolute so that I can manually adjust it relative to the header */
    position: absolute;
-   left: 372px;
+   left: 380px;
    top: 172px;
    color: white;
    font-size:40px;
