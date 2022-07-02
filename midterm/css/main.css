@@ -4,10 +4,10 @@ body {
    
 }
 
-h1,h2,h3,h4 {
+ h1,h2,h3,h4 {  /* It is to match the design of the mock-up as the headers aren't bold. */
     font-weight:lighter;
 }
-.wrapper {
+.wrapper { 
     background-color: #d2eae7f4;
     margin: 0 auto;
     max-width: 1000px;
@@ -20,7 +20,7 @@ header{
     position: relative;
 }
 
-h1 {
+h1 { /* sets position to absolute so that I can manually adjust it relative to the header */
    position: absolute;
    left: 372px;
    top: 172px;
@@ -40,7 +40,7 @@ nav ul{
     margin:auto;
 }
 
-a{
+a{ /* removes the underline and sets color to black to avoid having that clickable purple */
     text-decoration: none;
     color:black;
 }
@@ -54,7 +54,7 @@ main {
 }
 
 
-section ul{
+section ul{ /* pushes the list further inside, as the main is at 10px so we needed more here */ 
     padding-left: 15px;
 }
 
@@ -82,7 +82,7 @@ article img{
     margin:10px 0px 15px 0px;  
 }
 
-h4 {
+h4 { /* gets the h4 closer to the text box and further from the options below */
     margin: 2px 0 15px 0;
 }
 button{
