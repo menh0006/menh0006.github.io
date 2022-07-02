@@ -1,6 +1,6 @@
 body {
     background-color: #aad4cf;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
    
 }
 .wrapper {
@@ -50,8 +50,25 @@ main {
 }
 
 
+section ul{
+    padding-left: 12px;
+}
+
+article img{
+    width: 200px;
+    float:left;
+    margin: 0 15px 10px 0;
+  
+}
+
+.form {
+    border: 1px solid black;
+    padding: 10px;
+}
+#name, #email, #message{
+    width: 950px;
+    margin:10px 0 10px 0;
+}
 footer {
-    position: relative;
-    left: 845px;
-    bottom: 25px;
+    padding: 0 0 20px 845px;
 }
