@@ -3,6 +3,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
    
 }
+
+h1,h2,h3,h4 {
+    font-weight:lighter;
+}
 .wrapper {
     background-color: #d2eae7f4;
     margin: 0 auto;
@@ -51,7 +55,7 @@ main {
 
 
 section ul{
-    padding-left: 12px;
+    padding-left: 15px;
 }
 
 article img{
@@ -65,10 +69,29 @@ article img{
     border: 1px solid black;
     padding: 10px;
 }
-#name, #email, #message{
+
+.resizedtb {
+    height: 20px;
+}
+
+.resizedtb3 {
+   height: 80px;
+}
+#name, #email, #message {
     width: 950px;
-    margin:10px 0 10px 0;
+    margin:10px 0px 15px 0px;  
+}
+
+h4 {
+    margin: 2px 0 15px 0;
+}
+button{
+    background-color: transparent;
+    border: 1px solid black;
+    margin: 15px 0 10px 0;
+    padding: 12px;
+    
 }
 footer {
-    padding: 0 0 20px 845px;
+    padding: 10px 0 25px 845px;
 }
