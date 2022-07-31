@@ -4,9 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c20f57664c.js" crossorigin="anonymous"></script>
     <title>MTM6130 Final - menh</title>
 </head>
 <body>
+    <div class="wrapper"> <!-- sets a wrapper to center the content on css-->
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+             </div>
+             <div class="navigation">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Team</li>
+                        <li>Contact</li>       
+                    </ul>
+                </nav>
+            </div>
+            <div class="searchbar">
+                <form action="index.html" method="get">
+                    <input id="search" type="text" name="search" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
+        </header>
+        <main>
+            <div class="banner">
+                <img src="images/main-banner.jpg" alt="banner">
+            </div>
+            <section class="welcome"> <!--To align the section to the banner-->
+                <h1>Welcome to Three Star Media</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, sit odit? Debitis quam, laborum reprehenderit doloribus delectus consectetur dolorum veniam, corrupti, dicta perferendis inventore eveniet velit dolore repellendus distinctio quia.</p>
+                <button type="submit">Connect with us <i class="fa-solid fa-caret-right btn-black"></i></button> <!-- adds class to style the button in black-->
+            </section>
+            <section class="about"> <!--To style the about section differently-->
+                <img class="aboutimg" src="images/about-us.jpg" alt="about"> <!--adds class to resize the img-->
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae veniam vero vel ratione accusantium? Accusamus officia minima obcaecati architecto porro consequuntur maxime quasi nam quibusdam, incidunt quis et sunt fuga?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repudiandae illo ipsum porro velit nihil tenetur, hic modi repellendus tempora est, reiciendis recusandae reprehenderit, rerum magnam vel provident quam distinctio.</p>
+            </section>  
+                <h2>Our Services</h2>
+            <div class="services"> <!-- needs a grid layout for desktop-->
+                <section class="digital">
+                    <img src="images/digital.jpg" class="servicesimg" alt="digital">
+                    <h3>Digital Transformation</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ipsa ipsum distinctio sapiente aperiam. Doloribus provident nisi totam esse assumenda repellat voluptatum rerum adipisci, inventore, vel odio beatae! Quia, rem?</p>
+                    <button type="submit">Digital Plans <i class="fa-solid fa-caret-right btn-white"></i></button> <!-- adds class to style the button in white-->
+                </section>
+                <section class="marketing">
+                    <img src="images/marketing.jpg" alt="marketing">
+                    <h3>Marketing</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae, recusandae iure necessitatibus est voluptas quia perspiciatis nulla soluta accusantium pariatur amet eaque quisquam laborum veritatis at totam. Necessitatibus, dolore.</p>
+                    <button type="submit">Marketing Plans <i class="fa-solid fa-caret-right btn-white"></i></button>
+                </section>
+                <section class="videoprod">
+                    <img src="images/video.jpg" alt="video">
+                    <h3>Video Production</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusantium deleniti cum dolor a facere tempora necessitatibus modi doloremque consectetur, ullam quas illo. Illum officia est ipsum! Aspernatur, quod quasi!</p>
+                    <button type="submit">Video Plans <i class="fa-solid fa-caret-right btn-white"></i></button>
+                </section>
+                <section class="webdev">
+                    <img src="images/web.jpg" alt="web">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro temporibus esse ut dolorem perferendis ad, sapiente earum explicabo voluptatum beatae enim placeat nihil modi cum inventore, odit quaerat, repellendus aut?</p>
+                    <button type="submit">Web Plans <i class="fa-solid fa-caret-right btn-white"></i></button>
+                </section>
+                <section class="print">
+                    <h3>Print</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, reprehenderit. Eligendi saepe cupiditate amet ut vero iure praesentium facere commodi numquam? Error autem laboriosam dolorum, debitis soluta explicabo est totam.</p>
+                    <button type="submit">Print Plans <i class="fa-solid fa-caret-right btn-white"></i></button>
+                </section>
+            </div>
+            <div class="vision">
+                <h3>Our Vision</h3>
+                <img src="images/vision.jpg" alt="vision" class="img-vision"> <!--adds class to resize the img-->
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias labore eligendi aliquid ut ipsa, rerum quae ab recusandae fuga earum quaerat consectetur. Quisquam, ipsa iste. Deserunt obcaecati recusandae ratione laudantium.</p>
+                <button type="submit">Our Vision <i class="fa-solid fa-caret-right btn-white"></i></button>
+            </div>
+            <h2>Our Team</h2>
+            <div class="team"> <!-- needs a grid layout for the desktop-->
+                <div class="imgjohn"> 
+                    <img src="images/john.jpg" alt="john">
+                </div>
+                <div class="johndoe">
+                    <h3>John Doe</h3>
+                    <h4>CEO and Co-owner</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odio. Est minus eos iure debitis ex non reiciendis iste, in quia ea, quasi nihil maxime dolorum alias error facere ipsam.</p>
+                </div>
+            </div>
+            <section class="contact">
+                <h2>Contact Us</h2>
+                <h3>Send us a message</h3>
+                <form action="index.html" method="get"> 
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" name="name" class="resizedtb">
+                
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" class="resizedtb">
 
+                    <label for="message">Message</label>
+                    <input id="message" type="text" name="message" class="resizedtb3">
+
+                    <button type="submit">Send</button>
+                </form>
+                <h3>Hours of operation</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9 AM - 6 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday - Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7013.525860237039!2d-75.75926839611775!3d45.35032091028577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1659295056598!5m2!1sen!2sca"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
