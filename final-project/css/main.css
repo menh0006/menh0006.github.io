@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 /* main section, general styling*/
-.wrapper {
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -372,7 +372,10 @@ hr {
 
 /*-------------------------------------- Location Div ------------------------------- */
 
-
+.map {
+    width: 100%;
+    height: fit-content;
+}
 /*-------------------------------------- Footer -------------------------------- */
 
 footer {
