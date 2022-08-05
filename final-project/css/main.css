@@ -56,16 +56,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.services h2{
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: 15px 0px 15px 0px;
-}
-
 .services h3 {
     font-size: 1.7rem;
     font-weight: bold;
     margin-top: 15px;
+}
+
+.btn-services {
+    background-color:#222;
+    color: white;
+    height: 50px;
+    padding: 15px;
+    margin: 5px 0 10px 10px;
+    border: 1px solid #222;
 }
 
 /*--------------------------- header section--------------------------- */
@@ -140,7 +143,7 @@ h1{
     font-size: 15px;
 }
 
-.btn-submit {
+.btn-connect {
     background-color: #c78c06;
     height: 50px;
     padding: 15px;
@@ -162,16 +165,27 @@ h1{
 .about h2 {
     font-size: 2rem;
     font-weight: bold;
-    margin: 25px 0px 15px 0px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
 }
 
 /*--------------------------- services section --------------------------- */
 
+.services {
+    padding: 10px;
+}
+.services h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 15px 0px 15px 0px;
+}
 .svcheader {
     margin: 30px 0px 10px 0px;
 }
 
-.servicesimg {
+/*----- digital section -----*/
+
+.digitalimg {
     width: 100%;
 }
 
@@ -179,6 +193,21 @@ h1{
     background-color: rgb(255,230,172);
 }
 
-.digital h3,p {
+.digital h3,p{
+    padding: 10px;
+}
+
+/*----- marketing section -----*/
+
+.marketingimg {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.marketing {
+    background-color: rgb(255,230,172);
+}
+
+.marketing h3,p{
     padding: 10px;
 }
