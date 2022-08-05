@@ -62,6 +62,9 @@ body {
     margin-top: 15px;
 }
 
+p {
+    font-size: 0.8rem;
+}
 .btn-services {
     background-color:#222;
     color: white;
@@ -258,7 +261,7 @@ h1{
     padding: 10px;
 }
 
-/*------------------- Vision Section ---------------------*/
+/*-----------------------------------------Vision Section ------------------------------- */
 .vision {
     background-image: url(/images/vision.jpg);
     width: 100%;
@@ -288,7 +291,45 @@ h1{
     width: 130px;
 }
 
+/*----------------------------------------- Team Section ------------------------------- */
+
+.team {
+    padding: 10px;
+}
+.team h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+}
+
+.team h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 0 5px 10px;
+}
+
+.team h4 {
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+
 .johnimg {
     width: 100%;
     height:fit-content;
 }
+
+hr {
+    border: 1px solid #c78c06;
+    margin: 4px;
+}
+
+.john, .bob {
+    background-color:rgb(255,230,172);
+}
+
+.bobimg {
+    width: 100%;
+}
+
