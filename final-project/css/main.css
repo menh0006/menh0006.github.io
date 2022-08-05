@@ -129,14 +129,14 @@ nav ul :nth-child(1) {
 .w-text{
     margin: 25px 0 25px 0;
     padding: 10px;
-    background-color: black;
-    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.8);
+    line-height: 20px;
     
 }
 h1{
     font-size: 40px;
     font-weight: bold;
-    padding-bottom: 30px;
+    padding: 10px;
     color: white;
     line-height: 60px;
 
@@ -151,8 +151,7 @@ h1{
     background-color: #c78c06;
     height: 50px;
     padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin: 10px;
     border: 1px solid #c78c06;
 }
 /*--------------------------- about section --------------------------- */
@@ -259,3 +258,37 @@ h1{
     padding: 10px;
 }
 
+/*------------------- Vision Section ---------------------*/
+.vision {
+    background-image: url(/images/vision.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.vision p {
+    font-size: 0.8rem;
+}
+
+.vision h3 {
+    padding: 30px 0 10px 10px;
+    font-size: 1.5rem;
+}
+
+.btn-learn {
+    background-color:#222;
+    height: 60px;
+    padding: 8px;
+    color: white;
+    margin: 0 0 10px 10px;
+    border: 1px solid #c78c06;
+    width: 130px;
+}
+
+.johnimg {
+    width: 100%;
+    height:fit-content;
+}
