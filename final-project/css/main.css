@@ -279,7 +279,7 @@ h1{
 }
 
 .btn-learn {
-    background-color:#222;
+    background-color:rgba(34, 34, 34, 0.8);
     height: 60px;
     padding: 8px;
     color: white;
