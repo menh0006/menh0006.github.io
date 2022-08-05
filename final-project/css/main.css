@@ -231,3 +231,16 @@ h1{
     padding: 10px;
 }
 
+/*----- webdev section -----*/
+
+.webdevimg {
+    width: 100%; 
+}
+
+.webdev {
+    background-color: rgb(255,230,172);
+}
+
+.webdev h3,p {
+    padding: 10px;
+}
