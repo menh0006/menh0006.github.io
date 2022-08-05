@@ -227,3 +227,7 @@ h1{
     background-color: rgb(255,230,172);
 }
 
+.video h3,p {
+    padding: 10px;
+}
+
