@@ -71,6 +71,10 @@ body {
     border: 1px solid #222;
 }
 
+.section-spacing {
+    margin-top:10px;
+}
+
 /*--------------------------- header section--------------------------- */
 header{
     background-color:#222;
@@ -211,3 +215,15 @@ h1{
 .marketing h3,p{
     padding: 10px;
 }
+
+/*----- video section -----*/
+
+.videoimg {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.video {
+    background-color: rgb(255,230,172);
+}
+
