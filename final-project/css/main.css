@@ -244,3 +244,18 @@ h1{
 .webdev h3,p {
     padding: 10px;
 }
+
+/*-----  print section -----*/
+
+.printimg {
+    width: 100%;
+}
+
+.print {
+    background-color: rgb(255,230,172);
+}
+
+.print h3,p {
+    padding: 10px;
+}
+
