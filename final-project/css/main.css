@@ -519,7 +519,10 @@ footer a{
     font-weight: bold;
     font-size: 2rem;
    }
-   .team{
+    .team{
+    padding: 15px 80px 20px 80px;
+    display: grid;
+    gap: unset;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: 
@@ -541,9 +544,41 @@ footer a{
     }
     .bobrite{
         grid-area: txt2;
-    }
-
-   
+    } 
     
+     /*---------------------- Desktop Contact -------------------- */
+
+     .contact {
+        padding: 15px 80px 20px 80px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+        "hc hc"
+        "msg loc"
+        "hours hours";
+        gap: 10px;
+     }
+
+     .contact h2 {
+        grid-area: hc;
+     }
+     .contact .msg {
+        grid-area: msg;
+     }
+
+     .contact .location {
+        grid-area: loc;
+     }
+
+     .contact .operation {
+        grid-area: hours;
+     }
+     
+/*---------------------- Desktop Footer -------------------- */
+    
+     footer {
+        padding-left: 80px;
+    }
 }
 
