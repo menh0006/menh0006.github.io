@@ -74,9 +74,6 @@ p {
     border: 1px solid #222;
 }
 
-.section-spacing {
-    margin-top:10px;
-}
 
 /*--------------------------- header section--------------------------- */
 header{
@@ -104,7 +101,7 @@ nav ul :nth-child(1) {
 }
 .search{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
 .input {
     width: 100%;
@@ -124,13 +121,12 @@ nav ul :nth-child(1) {
     background-position: center;
     background-size: cover;
     display: flex;
-    
 }
 
 .w-text{
     margin: 25px 0 25px 0;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.651);
     line-height: 20px;
     
 }
@@ -162,20 +158,24 @@ h1{
 }
 
 .aboutimg {
-    height: fit-content;
     width: 100%;
 }
 
-.about h2 {
+.abouttxt h2 {
     font-size: 2rem;
     font-weight: bold;
     margin: 10px 0px 0px 0px;
     padding: 10px;
 }
+.abouttxt{
+    line-height: 1.5;
+}
 
 /*--------------------------- services section --------------------------- */
 
 .services {
+    display: grid;
+    gap: 10px;
     padding: 10px;
 }
 .services h2{
@@ -292,6 +292,8 @@ h1{
 /*----------------------------------------- Team Section ------------------------------- */
 
 .team {
+    display: grid;
+    gap:10px;
     padding: 10px;
 }
 .team h2 {
@@ -381,9 +383,9 @@ th {
 
 /*-------------------------------------- Location Div ------------------------------- */
 
-.map {
+iframe{
     width: 100%;
-    height: fit-content;
+    height: 350px;
 }
 /*-------------------------------------- Footer -------------------------------- */
 
@@ -399,4 +401,58 @@ footer {
 
 footer a{
     color:#c78c06;
+}
+
+@media screen and (min-width:760px) {
+    .logo{
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+    }
+    .logo img{
+        width: 80px;
+        height: 80px;
+    }
+    header{
+        display: grid;
+        grid-template-columns: repeat(3, 10% 65% 25%);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center;
+        padding: 50px;
+    }
+    nav{
+        margin: 15px;
+    }
+    nav ul{
+        display: flex;
+        text-align: left;
+        justify-content: space-evenly;
+    }
+    nav li{
+        text-align: center;
+        padding: none;
+        height: 20px;
+    }
+    .welcome{
+        height: 500px;
+        align-items: center;
+    }
+    h1{
+        font-size: 4em;
+        line-height: 1.2;
+    }
+    .w-text{
+        margin: 30px 50px;
+    }
+    .about{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 30px;
+    }
+    .about h2 {
+        margin: unset;
+    }
+    .aboutimg{
+        height: 100%;
+    }
 }
