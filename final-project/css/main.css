@@ -116,7 +116,7 @@ nav ul :nth-child(1) {
 
 /*--------------------------- welcome section --------------------------- */
 .welcome {
-    background-image: url(/..images/main-banner.jpg);
+    background-image: url(../images/main-banner.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -259,7 +259,7 @@ h1{
 
 /*-----------------------------------------Vision Section ------------------------------- */
 .vision {
-    background-image: url(/..images/vision.jpg);
+    background-image: url(../images/vision.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
