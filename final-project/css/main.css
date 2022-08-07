@@ -515,36 +515,10 @@ footer a{
 
  /*---------------------- Desktop Team -------------------- */
    .teamh2{
-    padding-left: 80px;
+    padding: 10px;
     font-weight: bold;
     font-size: 2rem;
    }
-    /* .team{
-    padding: 15px 80px 20px 80px;
-    display: grid;
-    gap: unset;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: 
-    "h h"
-    "john txt1"
-    "txt2 bob";
-   }
-   .teamh2{
-    grid-area: h;
-   }
-   .john img{
-        grid-area: john;
-   }
-   .john .johndoe{
-        grid-area: txt1;
-   }
-   .bob .bobimg{
-    grid-area: bob;
-    }
-    .bob .bobrite{
-        grid-area: txt2;
-    }  */
     
     .team {
         gap: unset;
