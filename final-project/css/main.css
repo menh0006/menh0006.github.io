@@ -259,7 +259,7 @@ h1{
 
 /*-----------------------------------------Vision Section ------------------------------- */
 .vision {
-    background-image: url(/images/vision.jpg);
+    background-image: url(../images/vision.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
