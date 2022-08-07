@@ -512,6 +512,9 @@ footer a{
         padding-right: 30px;
     }
 
+   
+    
+
  /*---------------------- Desktop Team -------------------- */
    .teamh2{
     padding-left: 80px;
@@ -570,7 +573,8 @@ footer a{
 /*---------------------- Desktop Footer -------------------- */
     
      footer {
-        padding-left: 80px;
+        padding: 10px 0 10px 80px;
+        width: 100%;
     }
 }
 
