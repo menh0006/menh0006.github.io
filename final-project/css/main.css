@@ -205,7 +205,6 @@ h1{
 
 .marketingimg {
     width: 100%;
-    margin-top: 10px;
 }
 
 .marketing {
@@ -220,7 +219,6 @@ h1{
 
 .videoimg {
     width: 100%;
-    margin-top: 10px;
 }
 
 .video {
@@ -314,7 +312,7 @@ h1{
     font-size: 0.8rem;
 }
 
-.johnimg {
+.johnimg{
     width: 100%;
     height:fit-content;
 }
@@ -328,7 +326,7 @@ hr {
     background-color:rgb(255,230,172);
 }
 
-.bobimg {
+.bobimg{
     width: 100%;
 }
 
@@ -403,7 +401,10 @@ footer a{
     color:#c78c06;
 }
 
+/*-------------------------------------- Desktop -------------------------------- */
+
 @media screen and (min-width:760px) {
+/*---------------------- Desktop Header -------------------- */
     .logo{
         background-color: transparent;
         display: flex;
@@ -433,6 +434,7 @@ footer a{
         padding: none;
         height: 20px;
     }
+    /*---------------------- Desktop Welcome -------------------- */
     .welcome{
         height: 500px;
         align-items: center;
@@ -444,6 +446,7 @@ footer a{
     .w-text{
         margin: 30px 50px;
     }
+ /*---------------------- Desktop About -------------------- */
     .about{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -455,4 +458,92 @@ footer a{
     .aboutimg{
         height: 100%;
     }
+ /*---------------------- Desktop Services -------------------- */
+
+    .services h2{
+        font-size: 2rem;
+        font-weight: bold;
+        margin: unset;
+    }
+    .svcheader {
+        margin: unset;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: unset;
+        margin-top: 40px;
+        padding-left: 80px;
+    }
+    
+    .services {
+        padding: 15px 80px 20px 80px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+        "h2 h2 h2 h2 h2 h2"
+        "dig dig dig mkt mkt mkt"
+        "vid vid web web print print";
+    }
+
+    .services h2{
+        grid-area: h2;
+        padding: unset;
+    }
+    .digital{
+        grid-area: dig;
+    }
+    .marketing{
+        grid-area: mkt;
+    }
+    .video{
+        grid-area: vid;
+    }
+    .webdev{
+        grid-area: web;
+    }
+    .print{
+        grid-area: print;
+    } 
+ /*---------------------- Desktop Vision -------------------- */
+    .vision {
+        padding-left: 50px;
+        margin-bottom: 30px;
+    }
+
+    .vision p {
+        padding-right: 30px;
+    }
+
+ /*---------------------- Desktop Team -------------------- */
+   .teamh2{
+    padding-left: 80px;
+    font-weight: bold;
+    font-size: 2rem;
+   }
+   .team{
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "h h"
+    "john txt1"
+    "txt2 bob";
+   }
+   .teamh2{
+    grid-area: h;
+   }
+   .johnimg{
+        grid-area: john;
+   }
+   .johndoe{
+        grid-area: txt1;
+   }
+   .bobimg{
+    grid-area: bob;
+    }
+    .bobrite{
+        grid-area: txt2;
+    }
+
+   
+    
 }
+
