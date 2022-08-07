@@ -519,7 +519,7 @@ footer a{
     font-weight: bold;
     font-size: 2rem;
    }
-    .team{
+    /* .team{
     padding: 15px 80px 20px 80px;
     display: grid;
     gap: unset;
@@ -533,19 +533,37 @@ footer a{
    .teamh2{
     grid-area: h;
    }
-   .johnimg{
+   .john img{
         grid-area: john;
    }
-   .johndoe{
+   .john .johndoe{
         grid-area: txt1;
    }
-   .bobimg{
+   .bob .bobimg{
     grid-area: bob;
     }
-    .bobrite{
+    .bob .bobrite{
         grid-area: txt2;
-    } 
+    }  */
     
+    .team {
+        gap: unset;
+    }
+    .john {
+        display:flex;
+    }
+
+    .bob {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .johnimg {
+        width: 50%;
+    }
+    .bobimg {
+        width: 50%;
+    }
      /*---------------------- Desktop Contact -------------------- */
 
      .contact {
